@@ -16,9 +16,6 @@ UCLASS()
 class BATTLETANK_API ABattleTank_GameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-	//Cast<AYourGameMode>(UGameplayStatics::GetGameMode(this))
-		//is uqeuivalent to
-	//GetWorld()->GetAuthGameMode<AYourGameMode>()
 
 public:
 	void DestroyTank(ATank* PawnToBeKilled);
