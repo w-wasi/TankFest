@@ -25,9 +25,6 @@ void ABattleTank_GameMode::DestroyTank(ATank* TankToBeKilled)
         {
             return;
         }
-        else {
-           // Controller->GetControlledTank()->DetachFromControllerPendingDestroy();
-        }
     }
 
     EndGame(true);
